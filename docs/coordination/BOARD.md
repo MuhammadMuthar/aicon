@@ -7,14 +7,6 @@ Deadlines: build Sat 10 Oct · **submit Sat 10 Oct 11:59 PM** · present Sun 11 
 
 ## Backlog
 
-### Frontend — ChatGPT (`apps/web`, contract in `docs/API.md`)
-- [ ] T-7 Scaffold Next.js + TS + Tailwind in `apps/web`; `scripts/check.sh` (lint + build); Vercel-ready — owner: ChatGPT
-- [ ] T-8 Upload screen: photo upload (multi-page, camera on mobile), CSV upload, "Try a sample" cards from `GET /api/samples` — owner: ChatGPT
-- [ ] T-9 Editable ledger table (edit/delete rows, add more pages to the same ledger), flagged rows highlighted — owner: ChatGPT
-- [ ] T-10 Results dashboard: score gauge + band, loan card, factor bar chart (up/down), monthly inflow/outflow chart, flags list — owner: ChatGPT
-- [ ] T-11 Explanation panel with EN / اردو toggle (RTL, Noto Nastaliq Urdu) — owner: ChatGPT
-- [ ] T-12 "How it works" section/page: pipeline diagram + model card (from `model_info`) + data disclaimer — owner: ChatGPT
-
 ### Backend / AI — Claude (`apps/api`)
 - [ ] T-13 Test Gemini extraction on real handwritten khata photos and tune the prompt — owner: Claude (needs photos + key from @human)
 - [ ] T-14 What-if endpoint: re-score with changed udhaar/recovery/margin (stretch) — owner: Claude
@@ -28,7 +20,16 @@ Deadlines: build Sat 10 Oct · **submit Sat 10 Oct 11:59 PM** · present Sun 11 
 - [ ] T-20 Rehearse the 5-minute demo on the team laptop, offline fallback via samples — owner: @human
 
 ## In progress
-_(nothing)_
+
+### Frontend — ChatGPT (`apps/web`, contract in `docs/API.md`)
+
+Frontend milestone T-7–T-12 is being delivered together as one integrated PR.
+- [ ] T-7 Scaffold Next.js + TS + Tailwind in `apps/web`; `scripts/check.sh` (lint + build); Vercel-ready — owner: ChatGPT — branch: `chatgpt/frontend`
+- [ ] T-8 Upload screen: photo upload (multi-page, camera on mobile), CSV upload, "Try a sample" cards from `GET /api/samples` — owner: ChatGPT — branch: `chatgpt/frontend`
+- [ ] T-9 Editable ledger table (edit/delete rows, add more pages to the same ledger), flagged rows highlighted — owner: ChatGPT — branch: `chatgpt/frontend`
+- [ ] T-10 Results dashboard: score gauge + band, loan card, factor bar chart (up/down), monthly inflow/outflow chart, flags list — owner: ChatGPT — branch: `chatgpt/frontend`
+- [ ] T-11 Explanation panel with EN / اردو toggle (RTL, Noto Nastaliq Urdu) — owner: ChatGPT — branch: `chatgpt/frontend`
+- [ ] T-12 "How it works" section/page: pipeline diagram + model card (from `model_info`) + data disclaimer — owner: ChatGPT — branch: `chatgpt/frontend`
 
 ## Review
 - [ ] T-1 Repository & collaboration setup — owner: Claude — branch: `claude/inspiring-dijkstra-igx5gj`

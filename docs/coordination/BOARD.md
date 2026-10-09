@@ -20,24 +20,16 @@ Deadlines: build Sat 10 Oct · **submit Sat 10 Oct 11:59 PM** · present Sun 11 
 - [ ] T-20 Rehearse the 5-minute demo on the team laptop, offline fallback via samples — owner: @human
 
 ## In progress
-- [ ] T-21 Senior review of merged `main` + fixes (loan on <2 months of records, 500 on huge amounts, Gemini timeouts, CSV import, frontend review highlighting + API cold start) — owner: Claude — branch: `claude/review-fixes`
+
+_(nothing)_
 
 ## Review
-
-### Frontend — ChatGPT (`apps/web`, contract in `docs/API.md`)
-
-Frontend milestone T-7–T-12 is implemented on `chatgpt/frontend` and ready for review; merge/deployment remain with the human lead.
-- [ ] T-7 Scaffold Next.js + TS + Tailwind in `apps/web`; `scripts/check.sh` (lint + build); Vercel-ready — owner: ChatGPT — branch: `chatgpt/frontend` — PR: https://github.com/MuhammadMuthar/aicon/pull/6
-- [ ] T-8 Upload screen: photo upload (multi-page, camera on mobile), CSV upload, "Try a sample" cards from `GET /api/samples` — owner: ChatGPT — branch: `chatgpt/frontend` — PR: https://github.com/MuhammadMuthar/aicon/pull/6
-- [ ] T-9 Editable ledger table (edit/delete rows, add more pages to the same ledger), flagged rows highlighted — owner: ChatGPT — branch: `chatgpt/frontend` — PR: https://github.com/MuhammadMuthar/aicon/pull/6
-- [ ] T-10 Results dashboard: score gauge + band, loan card, factor bar chart (up/down), monthly inflow/outflow chart, flags list — owner: ChatGPT — branch: `chatgpt/frontend` — PR: https://github.com/MuhammadMuthar/aicon/pull/6
-- [ ] T-11 Explanation panel with EN / اردو toggle (RTL, Noto Nastaliq Urdu) — owner: ChatGPT — branch: `chatgpt/frontend` — PR: https://github.com/MuhammadMuthar/aicon/pull/6
-- [ ] T-12 "How it works" section/page: pipeline diagram + model card (from `model_info`) + data disclaimer — owner: ChatGPT — branch: `chatgpt/frontend` — PR: https://github.com/MuhammadMuthar/aicon/pull/6
-
-- [ ] T-1 Repository & collaboration setup — owner: Claude — branch: `claude/inspiring-dijkstra-igx5gj`
-- [ ] T-6 Financial Operations brief, ADR-0002, API contract, backend MVP (`apps/api`) — owner: Claude — branch: `claude/finops-khata-credit`
+- [ ] T-21 Senior review of merged `main` + fixes (loan on <2 months of records, 500 on huge amounts, Gemini timeouts, CSV import, frontend review highlighting + API cold start) — owner: Claude — branch: `claude/review-fixes` — PR: https://github.com/MuhammadMuthar/aicon/pull/8
 
 ## Done
+- [x] T-7–T-12 Frontend (`apps/web`): scaffold, upload, editable ledger, report, EN/Urdu, how-it-works — ChatGPT — merged via https://github.com/MuhammadMuthar/aicon/pull/6
+- [x] T-1 Repository & collaboration setup — Claude — merged via https://github.com/MuhammadMuthar/aicon/pull/5
+- [x] T-6 Financial Operations brief, ADR-0002, API contract, backend MVP (`apps/api`) — Claude — merged via https://github.com/MuhammadMuthar/aicon/pull/5
 - [x] T-2 Fill in `docs/PROJECT.md` — done in T-6 (idea: Khata-to-Credit)
 - [x] T-3 Choose tech stack — ADR-0002 (Next.js + FastAPI)
 - [x] T-5 Work split — ChatGPT: frontend; Claude: backend/AI

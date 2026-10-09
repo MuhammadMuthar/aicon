@@ -13,8 +13,8 @@ Full brief: [`docs/PROJECT.md`](docs/PROJECT.md) · API: [`docs/API.md`](docs/AP
 | Part | Where | Status |
 |------|-------|--------|
 | Backend / AI (FastAPI) | [`apps/api`](apps/api) | working, tested |
-| Frontend (Next.js) | `apps/web` | to build (T-7…T-12) |
-| Deploy | Render (API) + Vercel (web) | to do |
+| Frontend (Next.js) | [`apps/web`](apps/web) | working, tested |
+| Deploy | Render (API) + Vercel (web) | to do (T-18) |
 
 Data: synthetic and fictional only — no real personal or financial data.
 
@@ -38,7 +38,7 @@ the cloud, through this repository — no local-only state.
 ├── AGENTS.md                 # Shared rules for all AI agents (source of truth)
 ├── CLAUDE.md                 # Claude-specific pointer to AGENTS.md
 ├── apps/api/                 # FastAPI backend + ML model (Claude)
-├── apps/web/                 # Next.js frontend (ChatGPT) — to build
+├── apps/web/                 # Next.js frontend (ChatGPT)
 ├── packages/                 # Shared code (unused so far)
 ├── render.yaml               # Render deploy blueprint for the API
 ├── scripts/                  # Dev/CI helper scripts

@@ -1,2 +1,3 @@
 # apps/
-Deployable applications (e.g. `apps/web`, `apps/api`). Created once the stack is chosen (task T-4).
+- `api/` — FastAPI backend + scoring model (owner: Claude)
+- `web/` — Next.js frontend (owner: ChatGPT, task T-7)

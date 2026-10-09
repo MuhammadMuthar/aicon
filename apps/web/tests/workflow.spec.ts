@@ -102,6 +102,10 @@ for (const [id, name, score] of [
         .getByRole("button", { name: "Review ledger", exact: true })
         .click();
       await expect(page.locator(".flagged-row").first()).toBeVisible();
+      // Page 3's 20 rows (wrong written total) + the one outlier row, not its whole page.
+      await expect(
+        page.getByRole("button", { name: /Needs review/ }),
+      ).toContainText("Needs review (21)");
     }
     if (id === "rahim") {
       await page.evaluate(() => window.scrollTo(0, 0));
@@ -362,4 +366,18 @@ test("photo controls submit multiple pages and surface extraction warnings and l
     }),
   ).toBeVisible();
   await expect(page.locator(".flagged-row")).toHaveCount(1);
+});
+
+test("a sleeping API is retried until the live service connects", async ({
+  page,
+}) => {
+  let failures = 1;
+  await page.route("**/health", (route) =>
+    failures-- > 0 ? route.abort() : route.continue(),
+  );
+  await page.goto("/");
+  await expect(page.getByText("Sample demo", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText("Service connected", { exact: true }),
+  ).toBeVisible({ timeout: 15000 });
 });

@@ -107,20 +107,28 @@ export default function Workspace() {
   const [confirmReset, setConfirmReset] = useState(false);
 
   useEffect(() => {
+    // A sleeping free-tier API (Render) takes up to a minute to wake, longer than
+    // one request timeout. Keep retrying so photo upload turns on once it is up.
     let active = true;
-    connect()
-      .then(([h, s]) => {
-        if (active) {
-          setHealth(h);
-          setSamples(s);
-          setConnection("live");
-        }
-      })
-      .catch(() => {
-        if (active) setConnection("demo");
-      });
+    let retry: ReturnType<typeof setTimeout> | undefined;
+    const attempt = (n: number) =>
+      connect()
+        .then(([h, s]) => {
+          if (active) {
+            setHealth(h);
+            setSamples(s);
+            setConnection("live");
+          }
+        })
+        .catch(() => {
+          if (!active) return;
+          setConnection((c) => (c === "live" ? c : "demo"));
+          if (n < 20) retry = setTimeout(() => attempt(n + 1), 5000);
+        });
+    attempt(1);
     return () => {
       active = false;
+      clearTimeout(retry);
     };
   }, []);
 

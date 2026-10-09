@@ -150,7 +150,7 @@ export default function ReportView({
           <p>
             {r.loan.eligible
               ? "A suggested loan size, grounded in your cash flow."
-              : "Your current cash flow does not support a suggested loan."}
+              : "Your current records do not support a suggested loan yet."}
           </p>
           <div className="loan-amount">
             <span>PKR</span>

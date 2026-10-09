@@ -1,0 +1,54 @@
+{
+  "name": "khata-credit-logreg",
+  "version": 1,
+  "trained_at": "2026-10-09T12:31:52+00:00",
+  "training_data": "3000 synthetic shops (seed 7); see app/ml/synthetic.py",
+  "features": [
+    "log_monthly_inflow",
+    "inflow_volatility",
+    "net_margin",
+    "active_day_ratio",
+    "udhaar_ratio",
+    "recovery_rate",
+    "inflow_trend",
+    "months_of_history"
+  ],
+  "mean": [
+    5.353084,
+    0.260736,
+    -0.001485,
+    0.841032,
+    0.247318,
+    0.796849,
+    0.034539,
+    6.992991
+  ],
+  "std": [
+    0.318615,
+    0.093027,
+    0.106305,
+    0.116185,
+    0.14197,
+    0.133341,
+    0.082618,
+    3.153687
+  ],
+  "coef": [
+    0.32853,
+    -0.342918,
+    0.639096,
+    0.113787,
+    -0.211786,
+    0.384974,
+    0.233973,
+    0.353192
+  ],
+  "intercept": 1.360204,
+  "metrics": {
+    "test_auc": 0.758,
+    "test_brier": 0.158,
+    "repay_rate": 0.746,
+    "n_train": 2250,
+    "n_test": 750
+  }
+}

@@ -1,0 +1,3086 @@
+{
+ "id": "rahim",
+ "business_name": "Rahim General Store",
+ "description": "Busy kiryana store, steady sales, little udhaar - a strong applicant.",
+ "entries": [
+  {
+   "date": "2026-05-01",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13130.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-01",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1760.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-01",
+   "description": "Kiraya (rent)",
+   "type": "expense",
+   "amount": 39870.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-02",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12260.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-02",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 770.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-03",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11650.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-03",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 1470.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-04",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12490.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-04",
+   "description": "Udhaar - Rubina",
+   "type": "udhaar_given",
+   "amount": 560.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-04",
+   "description": "Maal - Al-Karim Store",
+   "type": "purchase",
+   "amount": 42660.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-05",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12970.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-05",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 1760.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-05",
+   "description": "Wasooli - Naveed",
+   "type": "udhaar_recovered",
+   "amount": 430.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-06",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11350.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-06",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 650.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-07",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13180.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-07",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 1540.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-07",
+   "description": "Wasooli - Javed",
+   "type": "udhaar_recovered",
+   "amount": 220.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-08",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11390.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-08",
+   "description": "Udhaar - Ghazala",
+   "type": "udhaar_given",
+   "amount": 1480.0,
+   "page": 1
+  },
+  {
+   "date": "2026-05-08",
+   "description": "Wasooli - Aslam",
+   "type": "udhaar_recovered",
+   "amount": 850.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-09",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14600.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-09",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 1670.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-09",
+   "description": "Wasooli - Ghazala",
+   "type": "udhaar_recovered",
+   "amount": 1020.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-11",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11570.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-11",
+   "description": "Udhaar - Ghazala",
+   "type": "udhaar_given",
+   "amount": 850.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-11",
+   "description": "Wasooli - Aslam",
+   "type": "udhaar_recovered",
+   "amount": 910.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-11",
+   "description": "Maal - Madina Wholesale",
+   "type": "purchase",
+   "amount": 68730.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-12",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13420.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-12",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 980.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-13",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13800.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-13",
+   "description": "Udhaar - Iqra",
+   "type": "udhaar_given",
+   "amount": 1440.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-13",
+   "description": "Wasooli - Hamid",
+   "type": "udhaar_recovered",
+   "amount": 1490.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-14",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13610.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-14",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 1320.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-15",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12710.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-15",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 1710.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-15",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 70.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-16",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13090.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-16",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 1620.0,
+   "page": 2
+  },
+  {
+   "date": "2026-05-17",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13580.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-17",
+   "description": "Udhaar - Iqra",
+   "type": "udhaar_given",
+   "amount": 690.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-18",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12870.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-18",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1570.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-18",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 160.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-18",
+   "description": "Wasooli - Parveen",
+   "type": "udhaar_recovered",
+   "amount": 3290.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-18",
+   "description": "Maal - Madina Wholesale",
+   "type": "purchase",
+   "amount": 79380.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-19",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 10390.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-19",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 1170.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-19",
+   "description": "Wasooli - Kiran",
+   "type": "udhaar_recovered",
+   "amount": 740.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-19",
+   "description": "Wasooli - Hamid",
+   "type": "udhaar_recovered",
+   "amount": 670.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-20",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11100.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-20",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 1390.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-22",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14040.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-22",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 1050.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-23",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13790.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-23",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 730.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-23",
+   "description": "Wasooli - Bushra",
+   "type": "udhaar_recovered",
+   "amount": 430.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-24",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11210.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-24",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1210.0,
+   "page": 3
+  },
+  {
+   "date": "2026-05-24",
+   "description": "Wasooli - Ghazala",
+   "type": "udhaar_recovered",
+   "amount": 1130.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-24",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 920.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-25",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11960.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-25",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 1490.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-25",
+   "description": "Wasooli - Latif",
+   "type": "udhaar_recovered",
+   "amount": 230.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-25",
+   "description": "Wasooli - Kiran",
+   "type": "udhaar_recovered",
+   "amount": 1580.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-25",
+   "description": "Maal - Rehman Brothers",
+   "type": "purchase",
+   "amount": 61430.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-26",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15100.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-26",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 1970.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-26",
+   "description": "Wasooli - Bushra",
+   "type": "udhaar_recovered",
+   "amount": 1040.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-27",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14800.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-27",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 980.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-28",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13320.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-28",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 1660.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-29",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13300.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-29",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 960.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-30",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13600.0,
+   "page": 4
+  },
+  {
+   "date": "2026-05-30",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 750.0,
+   "page": 4
+  },
+  {
+   "date": "2026-06-01",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15990.0,
+   "page": 4
+  },
+  {
+   "date": "2026-06-01",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1540.0,
+   "page": 4
+  },
+  {
+   "date": "2026-06-01",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 460.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-01",
+   "description": "Maal - Rehman Brothers",
+   "type": "purchase",
+   "amount": 77120.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-01",
+   "description": "Kiraya (rent)",
+   "type": "expense",
+   "amount": 43180.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-03",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13180.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-03",
+   "description": "Udhaar - Kiran",
+   "type": "udhaar_given",
+   "amount": 820.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-04",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14060.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-04",
+   "description": "Udhaar - Iqra",
+   "type": "udhaar_given",
+   "amount": 1680.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-04",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 70.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-04",
+   "description": "Wasooli - Parveen",
+   "type": "udhaar_recovered",
+   "amount": 2740.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-05",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14460.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-05",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 1660.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-05",
+   "description": "Wasooli - Parveen",
+   "type": "udhaar_recovered",
+   "amount": 560.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-06",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13500.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-06",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 950.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-07",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13570.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-07",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 910.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-07",
+   "description": "Wasooli - Javed",
+   "type": "udhaar_recovered",
+   "amount": 1410.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-08",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13360.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-08",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 1620.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-08",
+   "description": "Wasooli - Javed",
+   "type": "udhaar_recovered",
+   "amount": 60.0,
+   "page": 5
+  },
+  {
+   "date": "2026-06-08",
+   "description": "Maal - Al-Karim Store",
+   "type": "purchase",
+   "amount": 67560.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-09",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13710.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-09",
+   "description": "Udhaar - Kiran",
+   "type": "udhaar_given",
+   "amount": 1150.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-10",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11420.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-10",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 970.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-10",
+   "description": "Wasooli - Farhan",
+   "type": "udhaar_recovered",
+   "amount": 1960.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-11",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13200.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-11",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 1670.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-11",
+   "description": "Wasooli - Ghazala",
+   "type": "udhaar_recovered",
+   "amount": 4640.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-12",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13870.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-12",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1340.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-13",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12740.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-13",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 1570.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-13",
+   "description": "Wasooli - Latif",
+   "type": "udhaar_recovered",
+   "amount": 60.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-14",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13380.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-14",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 870.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-15",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14640.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-15",
+   "description": "Udhaar - Rubina",
+   "type": "udhaar_given",
+   "amount": 1190.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-15",
+   "description": "Wasooli - Rubina",
+   "type": "udhaar_recovered",
+   "amount": 100.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-15",
+   "description": "Maal - Hafeez Traders",
+   "type": "purchase",
+   "amount": 79090.0,
+   "page": 6
+  },
+  {
+   "date": "2026-06-16",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15290.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-16",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 1450.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-17",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12990.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-17",
+   "description": "Udhaar - Iqra",
+   "type": "udhaar_given",
+   "amount": 1430.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-17",
+   "description": "Wasooli - Hamid",
+   "type": "udhaar_recovered",
+   "amount": 430.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-17",
+   "description": "Wasooli - Ghazala",
+   "type": "udhaar_recovered",
+   "amount": 4510.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-18",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15200.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-18",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 1340.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-19",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13350.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-19",
+   "description": "Udhaar - Iqra",
+   "type": "udhaar_given",
+   "amount": 1750.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-20",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14710.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-20",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 1300.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-20",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 1540.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-22",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13420.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-22",
+   "description": "Udhaar - Hamid",
+   "type": "udhaar_given",
+   "amount": 1050.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-22",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 1280.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-22",
+   "description": "Maal - Madina Wholesale",
+   "type": "purchase",
+   "amount": 75880.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-23",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13460.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-23",
+   "description": "Udhaar - Bushra",
+   "type": "udhaar_given",
+   "amount": 1700.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-23",
+   "description": "Wasooli - Bushra",
+   "type": "udhaar_recovered",
+   "amount": 150.0,
+   "page": 7
+  },
+  {
+   "date": "2026-06-24",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14650.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-24",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 1710.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-25",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14270.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-25",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 1300.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-26",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13120.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-26",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 1540.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-26",
+   "description": "Wasooli - Rubina",
+   "type": "udhaar_recovered",
+   "amount": 2030.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-27",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14650.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-27",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 1340.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-28",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13950.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-28",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 930.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-29",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11870.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-29",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 620.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-29",
+   "description": "Maal - Madina Wholesale",
+   "type": "purchase",
+   "amount": 84270.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-30",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13360.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-30",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 1050.0,
+   "page": 8
+  },
+  {
+   "date": "2026-06-30",
+   "description": "Wasooli - Parveen",
+   "type": "udhaar_recovered",
+   "amount": 3520.0,
+   "page": 8
+  },
+  {
+   "date": "2026-07-01",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15200.0,
+   "page": 8
+  },
+  {
+   "date": "2026-07-01",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 810.0,
+   "page": 8
+  },
+  {
+   "date": "2026-07-01",
+   "description": "Kiraya (rent)",
+   "type": "expense",
+   "amount": 36910.0,
+   "page": 8
+  },
+  {
+   "date": "2026-07-02",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15260.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-02",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 1860.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-02",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 60.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-02",
+   "description": "Wasooli - Iqra",
+   "type": "udhaar_recovered",
+   "amount": 2050.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-02",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 320.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-03",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13700.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-03",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1060.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-03",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 1740.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-04",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12950.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-04",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 1030.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-04",
+   "description": "Wasooli - Hamid",
+   "type": "udhaar_recovered",
+   "amount": 5130.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-05",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12990.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-05",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 1460.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-06",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13730.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-06",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 1600.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-06",
+   "description": "Wasooli - Javed",
+   "type": "udhaar_recovered",
+   "amount": 1220.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-06",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 2390.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-06",
+   "description": "Maal - Rehman Brothers",
+   "type": "purchase",
+   "amount": 84080.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-07",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13600.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-07",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 730.0,
+   "page": 9
+  },
+  {
+   "date": "2026-07-07",
+   "description": "Wasooli - Owais",
+   "type": "udhaar_recovered",
+   "amount": 2430.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-07",
+   "description": "Wasooli - Aslam",
+   "type": "udhaar_recovered",
+   "amount": 110.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-08",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13140.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-08",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 710.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-09",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 16580.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-09",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 920.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-10",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13560.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-10",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 1110.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-11",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14220.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-11",
+   "description": "Udhaar - Kiran",
+   "type": "udhaar_given",
+   "amount": 1750.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-11",
+   "description": "Wasooli - Bushra",
+   "type": "udhaar_recovered",
+   "amount": 920.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-12",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14940.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-12",
+   "description": "Udhaar - Ghazala",
+   "type": "udhaar_given",
+   "amount": 910.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-12",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 100.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-13",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15110.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-13",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 890.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-13",
+   "description": "Maal - Rehman Brothers",
+   "type": "purchase",
+   "amount": 86280.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-15",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12650.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-15",
+   "description": "Udhaar - Bushra",
+   "type": "udhaar_given",
+   "amount": 1250.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-15",
+   "description": "Wasooli - Farhan",
+   "type": "udhaar_recovered",
+   "amount": 1070.0,
+   "page": 10
+  },
+  {
+   "date": "2026-07-16",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11270.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-16",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 1470.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-17",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14250.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-17",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 950.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-18",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13210.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-18",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 820.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-18",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 490.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-19",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12640.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-19",
+   "description": "Udhaar - Bushra",
+   "type": "udhaar_given",
+   "amount": 890.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-19",
+   "description": "Wasooli - Javed",
+   "type": "udhaar_recovered",
+   "amount": 1390.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-19",
+   "description": "Wasooli - Naveed",
+   "type": "udhaar_recovered",
+   "amount": 2270.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-20",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12730.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-20",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 880.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-20",
+   "description": "Wasooli - Latif",
+   "type": "udhaar_recovered",
+   "amount": 500.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-20",
+   "description": "Wasooli - Bushra",
+   "type": "udhaar_recovered",
+   "amount": 1870.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-20",
+   "description": "Wasooli - Iqra",
+   "type": "udhaar_recovered",
+   "amount": 300.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-20",
+   "description": "Maal - Madina Wholesale",
+   "type": "purchase",
+   "amount": 64180.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-21",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12970.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-21",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1530.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-22",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 16070.0,
+   "page": 11
+  },
+  {
+   "date": "2026-07-22",
+   "description": "Udhaar - Iqra",
+   "type": "udhaar_given",
+   "amount": 1580.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-22",
+   "description": "Wasooli - Javed",
+   "type": "udhaar_recovered",
+   "amount": 1450.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-23",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14700.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-23",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 800.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-23",
+   "description": "Wasooli - Owais",
+   "type": "udhaar_recovered",
+   "amount": 770.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-24",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 16130.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-24",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 1710.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-24",
+   "description": "Wasooli - Farhan",
+   "type": "udhaar_recovered",
+   "amount": 160.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-25",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13030.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-25",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1540.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-25",
+   "description": "Wasooli - Iqra",
+   "type": "udhaar_recovered",
+   "amount": 3280.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-25",
+   "description": "Wasooli - Hamid",
+   "type": "udhaar_recovered",
+   "amount": 1100.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-26",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14400.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-26",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 1190.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-27",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12030.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-27",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 980.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-27",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 1600.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-27",
+   "description": "Maal - Madina Wholesale",
+   "type": "purchase",
+   "amount": 84700.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-28",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14700.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-28",
+   "description": "Udhaar - Ghazala",
+   "type": "udhaar_given",
+   "amount": 1480.0,
+   "page": 12
+  },
+  {
+   "date": "2026-07-28",
+   "description": "Wasooli - Parveen",
+   "type": "udhaar_recovered",
+   "amount": 1510.0,
+   "page": 13
+  },
+  {
+   "date": "2026-07-28",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 170.0,
+   "page": 13
+  },
+  {
+   "date": "2026-07-29",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14510.0,
+   "page": 13
+  },
+  {
+   "date": "2026-07-29",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 1550.0,
+   "page": 13
+  },
+  {
+   "date": "2026-07-30",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14610.0,
+   "page": 13
+  },
+  {
+   "date": "2026-07-30",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 1520.0,
+   "page": 13
+  },
+  {
+   "date": "2026-07-30",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 1410.0,
+   "page": 13
+  },
+  {
+   "date": "2026-07-31",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15350.0,
+   "page": 13
+  },
+  {
+   "date": "2026-07-31",
+   "description": "Udhaar - Hamid",
+   "type": "udhaar_given",
+   "amount": 1960.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-01",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 18480.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-01",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 1300.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-01",
+   "description": "Wasooli - Aslam",
+   "type": "udhaar_recovered",
+   "amount": 3520.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-01",
+   "description": "Kiraya (rent)",
+   "type": "expense",
+   "amount": 42430.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-02",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14170.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-02",
+   "description": "Udhaar - Kiran",
+   "type": "udhaar_given",
+   "amount": 1460.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-03",
+   "description": "Maal - Al-Karim Store",
+   "type": "purchase",
+   "amount": 84580.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-04",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11900.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-04",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 1290.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-04",
+   "description": "Wasooli - Latif",
+   "type": "udhaar_recovered",
+   "amount": 2940.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-04",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 2280.0,
+   "page": 13
+  },
+  {
+   "date": "2026-08-05",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14860.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-05",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1250.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-05",
+   "description": "Wasooli - Latif",
+   "type": "udhaar_recovered",
+   "amount": 390.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-05",
+   "description": "Wasooli - Owais",
+   "type": "udhaar_recovered",
+   "amount": 1110.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-06",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14750.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-06",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1160.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-07",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14810.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-07",
+   "description": "Udhaar - Ghazala",
+   "type": "udhaar_given",
+   "amount": 970.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-07",
+   "description": "Wasooli - Bushra",
+   "type": "udhaar_recovered",
+   "amount": 320.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-08",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12330.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-08",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 1050.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-09",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13660.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-09",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 1700.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-10",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13520.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-10",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 1790.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-10",
+   "description": "Wasooli - Parveen",
+   "type": "udhaar_recovered",
+   "amount": 890.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-10",
+   "description": "Wasooli - Naveed",
+   "type": "udhaar_recovered",
+   "amount": 2130.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-10",
+   "description": "Maal - Madina Wholesale",
+   "type": "purchase",
+   "amount": 80080.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-11",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12040.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-11",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 910.0,
+   "page": 14
+  },
+  {
+   "date": "2026-08-12",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12930.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-12",
+   "description": "Udhaar - Ghazala",
+   "type": "udhaar_given",
+   "amount": 1160.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-12",
+   "description": "Wasooli - Kiran",
+   "type": "udhaar_recovered",
+   "amount": 260.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-12",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 3510.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-13",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14450.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-13",
+   "description": "Udhaar - Hamid",
+   "type": "udhaar_given",
+   "amount": 1510.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-13",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 1740.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-14",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13650.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-14",
+   "description": "Udhaar - Bushra",
+   "type": "udhaar_given",
+   "amount": 1740.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-15",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12420.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-15",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1410.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-15",
+   "description": "Wasooli - Iqra",
+   "type": "udhaar_recovered",
+   "amount": 3500.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-16",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 17670.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-16",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 780.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-17",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14070.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-17",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 1000.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-17",
+   "description": "Wasooli - Ghazala",
+   "type": "udhaar_recovered",
+   "amount": 60.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-17",
+   "description": "Wasooli - Iqra",
+   "type": "udhaar_recovered",
+   "amount": 1910.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-17",
+   "description": "Wasooli - Hamid",
+   "type": "udhaar_recovered",
+   "amount": 110.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-17",
+   "description": "Wasooli - Hamid",
+   "type": "udhaar_recovered",
+   "amount": 580.0,
+   "page": 15
+  },
+  {
+   "date": "2026-08-17",
+   "description": "Maal - Madina Wholesale",
+   "type": "purchase",
+   "amount": 80490.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-18",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12990.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-18",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 1400.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-18",
+   "description": "Wasooli - Farhan",
+   "type": "udhaar_recovered",
+   "amount": 280.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-20",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13910.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-20",
+   "description": "Udhaar - Ghazala",
+   "type": "udhaar_given",
+   "amount": 1860.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-21",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 16420.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-21",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 1800.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-21",
+   "description": "Wasooli - Naveed",
+   "type": "udhaar_recovered",
+   "amount": 410.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-21",
+   "description": "Wasooli - Bushra",
+   "type": "udhaar_recovered",
+   "amount": 110.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-22",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15270.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-22",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 830.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-23",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13750.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-23",
+   "description": "Udhaar - Kiran",
+   "type": "udhaar_given",
+   "amount": 1630.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-24",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13540.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-24",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 1830.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-24",
+   "description": "Maal - Al-Karim Store",
+   "type": "purchase",
+   "amount": 73420.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-25",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14450.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-25",
+   "description": "Udhaar - Rubina",
+   "type": "udhaar_given",
+   "amount": 1880.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-25",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 6450.0,
+   "page": 16
+  },
+  {
+   "date": "2026-08-25",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 2840.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-26",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13330.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-26",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 1670.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-26",
+   "description": "Wasooli - Owais",
+   "type": "udhaar_recovered",
+   "amount": 1730.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-26",
+   "description": "Wasooli - Farhan",
+   "type": "udhaar_recovered",
+   "amount": 60.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-27",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14680.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-27",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 1450.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-28",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12300.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-28",
+   "description": "Udhaar - Parveen",
+   "type": "udhaar_given",
+   "amount": 1150.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-29",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14050.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-29",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 910.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-30",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12480.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-30",
+   "description": "Udhaar - Sajid",
+   "type": "udhaar_given",
+   "amount": 1690.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-30",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 1520.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-31",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15110.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-31",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 740.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-31",
+   "description": "Wasooli - Rubina",
+   "type": "udhaar_recovered",
+   "amount": 820.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-31",
+   "description": "Wasooli - Rubina",
+   "type": "udhaar_recovered",
+   "amount": 1340.0,
+   "page": 17
+  },
+  {
+   "date": "2026-08-31",
+   "description": "Maal - Rehman Brothers",
+   "type": "purchase",
+   "amount": 83430.0,
+   "page": 17
+  },
+  {
+   "date": "2026-09-01",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14880.0,
+   "page": 17
+  },
+  {
+   "date": "2026-09-01",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 810.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-01",
+   "description": "Wasooli - Kiran",
+   "type": "udhaar_recovered",
+   "amount": 2900.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-01",
+   "description": "Kiraya (rent)",
+   "type": "expense",
+   "amount": 37700.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-02",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15680.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-02",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 760.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-03",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15100.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-03",
+   "description": "Udhaar - Kiran",
+   "type": "udhaar_given",
+   "amount": 1260.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-04",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14200.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-04",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 1340.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-05",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12420.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-05",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 1510.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-05",
+   "description": "Wasooli - Farhan",
+   "type": "udhaar_recovered",
+   "amount": 910.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-06",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14170.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-06",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 800.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-06",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 980.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-06",
+   "description": "Wasooli - Parveen",
+   "type": "udhaar_recovered",
+   "amount": 3990.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-06",
+   "description": "Wasooli - Rubina",
+   "type": "udhaar_recovered",
+   "amount": 920.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-07",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14020.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-07",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 1270.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-07",
+   "description": "Maal - Hafeez Traders",
+   "type": "purchase",
+   "amount": 86830.0,
+   "page": 18
+  },
+  {
+   "date": "2026-09-08",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15150.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-08",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 960.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-08",
+   "description": "Wasooli - Latif",
+   "type": "udhaar_recovered",
+   "amount": 1430.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-09",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15910.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-09",
+   "description": "Udhaar - Bushra",
+   "type": "udhaar_given",
+   "amount": 770.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-09",
+   "description": "Wasooli - Naveed",
+   "type": "udhaar_recovered",
+   "amount": 410.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-09",
+   "description": "Wasooli - Kiran",
+   "type": "udhaar_recovered",
+   "amount": 2680.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-09",
+   "description": "Wasooli - Rubina",
+   "type": "udhaar_recovered",
+   "amount": 350.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-10",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15330.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-10",
+   "description": "Udhaar - Rubina",
+   "type": "udhaar_given",
+   "amount": 720.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-10",
+   "description": "Wasooli - Aslam",
+   "type": "udhaar_recovered",
+   "amount": 2870.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-10",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 1650.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-10",
+   "description": "Wasooli - Iqra",
+   "type": "udhaar_recovered",
+   "amount": 160.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-10",
+   "description": "Wasooli - Javed",
+   "type": "udhaar_recovered",
+   "amount": 3510.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-11",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12560.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-11",
+   "description": "Udhaar - Farhan",
+   "type": "udhaar_given",
+   "amount": 940.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-12",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14380.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-12",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 1090.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-12",
+   "description": "Wasooli - Hamid",
+   "type": "udhaar_recovered",
+   "amount": 140.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-13",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 16530.0,
+   "page": 19
+  },
+  {
+   "date": "2026-09-13",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 2070.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-14",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14460.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-14",
+   "description": "Udhaar - Rubina",
+   "type": "udhaar_given",
+   "amount": 870.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-14",
+   "description": "Wasooli - Naveed",
+   "type": "udhaar_recovered",
+   "amount": 70.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-14",
+   "description": "Maal - Hafeez Traders",
+   "type": "purchase",
+   "amount": 86720.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-15",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 11500.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-15",
+   "description": "Udhaar - Iqra",
+   "type": "udhaar_given",
+   "amount": 1230.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-15",
+   "description": "Wasooli - Iqra",
+   "type": "udhaar_recovered",
+   "amount": 340.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-16",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13290.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-16",
+   "description": "Udhaar - Ghazala",
+   "type": "udhaar_given",
+   "amount": 620.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-16",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 1000.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-16",
+   "description": "Wasooli - Kiran",
+   "type": "udhaar_recovered",
+   "amount": 2280.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-17",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14640.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-17",
+   "description": "Udhaar - Owais",
+   "type": "udhaar_given",
+   "amount": 1840.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-17",
+   "description": "Wasooli - Parveen",
+   "type": "udhaar_recovered",
+   "amount": 450.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-18",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 18170.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-18",
+   "description": "Udhaar - Rubina",
+   "type": "udhaar_given",
+   "amount": 1030.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-18",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 940.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-19",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15880.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-19",
+   "description": "Udhaar - Bushra",
+   "type": "udhaar_given",
+   "amount": 760.0,
+   "page": 20
+  },
+  {
+   "date": "2026-09-19",
+   "description": "Wasooli - Rubina",
+   "type": "udhaar_recovered",
+   "amount": 100.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-20",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15100.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-20",
+   "description": "Udhaar - Bushra",
+   "type": "udhaar_given",
+   "amount": 1890.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-20",
+   "description": "Wasooli - Javed",
+   "type": "udhaar_recovered",
+   "amount": 950.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-21",
+   "description": "Maal - Hafeez Traders",
+   "type": "purchase",
+   "amount": 70860.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-22",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14460.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-22",
+   "description": "Udhaar - Qasim",
+   "type": "udhaar_given",
+   "amount": 1090.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-23",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14050.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-23",
+   "description": "Udhaar - Kiran",
+   "type": "udhaar_given",
+   "amount": 890.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-25",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 12740.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-25",
+   "description": "Udhaar - Javed",
+   "type": "udhaar_given",
+   "amount": 910.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-25",
+   "description": "Wasooli - Naveed",
+   "type": "udhaar_recovered",
+   "amount": 1920.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-25",
+   "description": "Wasooli - Maryam",
+   "type": "udhaar_recovered",
+   "amount": 1130.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-25",
+   "description": "Wasooli - Bushra",
+   "type": "udhaar_recovered",
+   "amount": 2540.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-26",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14700.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-26",
+   "description": "Udhaar - Maryam",
+   "type": "udhaar_given",
+   "amount": 1670.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-27",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 15530.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-27",
+   "description": "Udhaar - Naveed",
+   "type": "udhaar_given",
+   "amount": 970.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-27",
+   "description": "Wasooli - Iqra",
+   "type": "udhaar_recovered",
+   "amount": 190.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-27",
+   "description": "Wasooli - Ghazala",
+   "type": "udhaar_recovered",
+   "amount": 780.0,
+   "page": 21
+  },
+  {
+   "date": "2026-09-28",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 13670.0,
+   "page": 22
+  },
+  {
+   "date": "2026-09-28",
+   "description": "Udhaar - Aslam",
+   "type": "udhaar_given",
+   "amount": 850.0,
+   "page": 22
+  },
+  {
+   "date": "2026-09-28",
+   "description": "Wasooli - Sajid",
+   "type": "udhaar_recovered",
+   "amount": 3220.0,
+   "page": 22
+  },
+  {
+   "date": "2026-09-28",
+   "description": "Maal - Rehman Brothers",
+   "type": "purchase",
+   "amount": 71970.0,
+   "page": 22
+  },
+  {
+   "date": "2026-09-29",
+   "description": "Roz ki bikri (daily sale)",
+   "type": "sale",
+   "amount": 14480.0,
+   "page": 22
+  },
+  {
+   "date": "2026-09-29",
+   "description": "Udhaar - Latif",
+   "type": "udhaar_given",
+   "amount": 1030.0,
+   "page": 22
+  },
+  {
+   "date": "2026-09-29",
+   "description": "Wasooli - Qasim",
+   "type": "udhaar_recovered",
+   "amount": 2610.0,
+   "page": 22
+  }
+ ],
+ "pages": [
+  {
+   "page": 1,
+   "stated_total": 191590.0
+  },
+  {
+   "page": 2,
+   "stated_total": 175460.0
+  },
+  {
+   "page": 3,
+   "stated_total": 179460.0
+  },
+  {
+   "page": 4,
+   "stated_total": 173750.0
+  },
+  {
+   "page": 5,
+   "stated_total": 215370.0
+  },
+  {
+   "page": 6,
+   "stated_total": 255130.0
+  },
+  {
+   "page": 7,
+   "stated_total": 192230.0
+  },
+  {
+   "page": 8,
+   "stated_total": 247100.0
+  },
+  {
+   "page": 9,
+   "stated_total": 186960.0
+  },
+  {
+   "page": 10,
+   "stated_total": 198650.0
+  },
+  {
+   "page": 11,
+   "stated_total": 170680.0
+  },
+  {
+   "page": 12,
+   "stated_total": 187330.0
+  },
+  {
+   "page": 13,
+   "stated_total": 236940.0
+  },
+  {
+   "page": 14,
+   "stated_total": 189720.0
+  },
+  {
+   "page": 15,
+   "stated_total": 104460.0
+  },
+  {
+   "page": 16,
+   "stated_total": 272720.0
+  },
+  {
+   "page": 17,
+   "stated_total": 196180.0
+  },
+  {
+   "page": 18,
+   "stated_total": 227570.0
+  },
+  {
+   "page": 19,
+   "stated_total": 107540.0
+  },
+  {
+   "page": 20,
+   "stated_total": 188160.0
+  },
+  {
+   "page": 21,
+   "stated_total": 172470.0
+  },
+  {
+   "page": 22,
+   "stated_total": 107830.0
+  }
+ ]
+}

@@ -20,10 +20,11 @@ The repository is their shared memory:
 4. The other agent or the lead reviews; the lead merges.
 5. Everyone pulls `main` before starting the next task.
 
-## Suggested split (adjust once the idea is known)
-Splitting by area keeps merge conflicts low, e.g. one agent owns the frontend
-(`apps/web`), the other the backend/AI (`apps/api`), with the API contract
-agreed first in an ADR.
+## Current split
+- **ChatGPT** owns the frontend (`apps/web`, Next.js).
+- **Claude** owns the backend/AI (`apps/api`, FastAPI + model + Gemini).
+- The contract between them is [`API.md`](API.md); change it only in a PR that
+  updates both sides or with a note in `MESSAGES.md`.
 
 ## Tips for the human lead
 - When you start a session with either agent, say: *"Read AGENTS.md and the

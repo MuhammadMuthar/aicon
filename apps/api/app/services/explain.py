@@ -148,7 +148,7 @@ def explain(languages: list[str], name: str | None, score: dict, profile: dict, 
     try:
         out: _ExplSet = llm.generate_json(
             [f"Languages: {', '.join(languages)}\n\nAssessment JSON:\n{json.dumps(facts, ensure_ascii=False)}"],
-            _ExplSet, SYSTEM_PROMPT, temperature=0.3,
+            _ExplSet, SYSTEM_PROMPT, temperature=0.3, timeout_s=20,  # then fall back to the template
         )
         by_lang = {e.language: e for e in out.explanations}
         if all(lang in by_lang for lang in languages):

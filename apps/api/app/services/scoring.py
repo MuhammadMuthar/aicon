@@ -23,6 +23,9 @@ READY_AT = 75
 BUILDING_AT = 55
 TENURE_MONTHS = 12
 INSTALMENT_SHARE = {"ready": 0.35, "building": 0.25, "not_yet": 0.0}
+# Policy rule applied before the scorecard: the model was trained on 2-12 months of
+# records, and monthly averages from a few days are extrapolation, not cash flow.
+MIN_LOAN_MONTHS = 2.0
 
 
 @lru_cache
@@ -57,19 +60,24 @@ def score_profile(profile: dict) -> dict:
     return {"score": score, "band": band, "repay_probability": round(p, 3), "factors": factors}
 
 
+def _not_eligible(note: str) -> dict:
+    return {"eligible": False, "monthly_instalment": 0, "tenure_months": TENURE_MONTHS, "principal": 0, "note": note}
+
+
 def suggest_loan(profile: dict, band: str) -> dict:
+    if profile["months_of_history"] < MIN_LOAN_MONTHS:
+        return _not_eligible(
+            f"Not recommended yet: at least {MIN_LOAN_MONTHS:g} months of records are needed to size an "
+            f"instalment safely (this ledger covers {profile['months_of_history']:.1f})."
+        )
     surplus = max(profile["avg_monthly_surplus"], 0.0)
     share = INSTALMENT_SHARE[band]
     instalment = math.floor(surplus * share / 500) * 500
     principal = instalment * TENURE_MONTHS
     if band == "not_yet" or instalment <= 0:
-        return {
-            "eligible": False,
-            "monthly_instalment": 0,
-            "tenure_months": TENURE_MONTHS,
-            "principal": 0,
-            "note": "Not recommended yet: monthly surplus is too thin or too uncertain to carry an instalment safely.",
-        }
+        return _not_eligible(
+            "Not recommended yet: monthly surplus is too thin or too uncertain to carry an instalment safely."
+        )
     return {
         "eligible": True,
         "monthly_instalment": instalment,

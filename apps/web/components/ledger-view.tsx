@@ -51,14 +51,21 @@ export default function LedgerView({
   const [page, setPage] = useState(0);
   const [onlyFlagged, setOnlyFlagged] = useState(flags.length > 0);
   const files = useRef<HTMLInputElement>(null);
+  // Entry-level flags (outlier, duplicate, low confidence) also carry a page, so
+  // only page-level flags (no entry_index, e.g. a wrong page total) match by page.
+  const flagsFor = (index: number) =>
+    flags.filter(
+      (f) =>
+        f.entry_index === index ||
+        (f.entry_index == null &&
+          f.page != null &&
+          f.page === ledger.entries[index].page),
+    );
   const needsReview = (index: number) => {
     const entry = ledger.entries[index];
     return (
       (entry.confidence != null && entry.confidence < 0.8) ||
-      flags.some(
-        (f) =>
-          f.entry_index === index || (f.page != null && f.page === entry.page),
-      )
+      flagsFor(index).length > 0
     );
   };
   const attention = ledger.entries.filter((_, i) => needsReview(i)).length;
@@ -301,14 +308,8 @@ export default function LedgerView({
             </thead>
             <tbody>
               {shown.map(({ entry, index }) => {
-                const rowFlags = flags.filter(
-                  (f) =>
-                    f.entry_index === index ||
-                    (f.page != null && f.page === entry.page),
-                );
-                const flagged =
-                  (entry.confidence != null && entry.confidence < 0.8) ||
-                  !!rowFlags.length;
+                const rowFlags = flagsFor(index);
+                const flagged = needsReview(index);
                 return (
                   <tr key={index} className={flagged ? "flagged-row" : ""}>
                     <td>

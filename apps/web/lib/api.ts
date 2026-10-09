@@ -74,10 +74,11 @@ export function validateLedger(ledger: Ledger): string | null {
       !e.date ||
       !/^\d{4}-\d{2}-\d{2}$/.test(e.date) ||
       !Number.isFinite(e.amount) ||
-      e.amount <= 0,
+      e.amount <= 0 ||
+      e.amount > 1e9,
   );
   return invalid >= 0
-    ? `Entry ${invalid + 1} needs a valid date and an amount greater than zero.`
+    ? `Entry ${invalid + 1} needs a valid date and an amount greater than zero (up to PKR 1,000,000,000).`
     : null;
 }
 export function appendLedger(current: Ledger, added: Ledger): Ledger {

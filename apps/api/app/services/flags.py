@@ -7,6 +7,7 @@ from collections import defaultdict
 import numpy as np
 
 from app.schemas import Ledger
+from app.services.scoring import MIN_LOAN_MONTHS
 
 TOTAL_TOLERANCE = 0.01   # 1% (handwriting rounding)
 OUTLIER_Z = 4.0          # robust z-score threshold
@@ -90,11 +91,14 @@ def check_ledger(ledger: Ledger, months_of_history: float) -> list[dict]:
                 "message": f"Entry {i + 1} ({e.description or e.type.value}, PKR {e.amount:,.0f}) was hard to read - please confirm.",
             })
 
-    # 5. Too little history for a reliable score.
-    if months_of_history < 2:
+    # 5. Too little history for a reliable score (the model was trained on 2-12 months).
+    if months_of_history < MIN_LOAN_MONTHS:
         flags.append({
             "kind": "short_history",
             "severity": "warning",
-            "message": f"Only {months_of_history:.1f} months of records. Scores are more reliable with 3+ months.",
+            "message": (
+                f"Only {months_of_history:.1f} months of records, so monthly figures are extrapolated and the "
+                f"score is provisional. No loan is suggested below {MIN_LOAN_MONTHS:g} months; 3+ months is best."
+            ),
         })
     return flags

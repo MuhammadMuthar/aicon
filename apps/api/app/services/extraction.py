@@ -8,7 +8,7 @@ from datetime import date
 
 from pydantic import BaseModel, Field
 
-from app.schemas import EntryType, ExtractResponse, LedgerEntry, PageInfo
+from app.schemas import MAX_AMOUNT, EntryType, ExtractResponse, LedgerEntry, PageInfo
 from app.services import llm
 
 SYSTEM_PROMPT = """You digitise handwritten shop ledgers (khata / bahi-khata) from Pakistan.
@@ -67,7 +67,8 @@ def extract_from_images(images: list[tuple[bytes, str]], year: int) -> ExtractRe
         parts.append(llm.image_part(data, mime))
     parts.append("Extract all pages. Number pages in the order given, starting at 1.")
 
-    raw: _RawLedger = llm.generate_json(parts, _RawLedger, SYSTEM_PROMPT.format(year=year))
+    # The web app waits 90 s for /api/extract; answer before it gives up.
+    raw: _RawLedger = llm.generate_json(parts, _RawLedger, SYSTEM_PROMPT.format(year=year), timeout_s=75)
 
     entries: list[LedgerEntry] = []
     pages: list[PageInfo] = []
@@ -78,7 +79,7 @@ def extract_from_images(images: list[tuple[bytes, str]], year: int) -> ExtractRe
         pages.append(PageInfo(page=p.page, stated_total=p.stated_total))
         for r in p.entries:
             d = _parse_date(r.date) or last_date
-            if d is None or r.amount <= 0:
+            if d is None or not 0 < r.amount <= MAX_AMOUNT:
                 dropped += 1
                 continue
             last_date = d
@@ -95,22 +96,38 @@ def extract_from_images(images: list[tuple[bytes, str]], year: int) -> ExtractRe
     return ExtractResponse(business_name=raw.business_name, entries=entries, pages=pages, source="gemini", warnings=warnings)
 
 
-CSV_HELP = "CSV needs columns: date (YYYY-MM-DD), type, amount; optional: description, page."
+CSV_HELP = (
+    "CSV needs columns: date (YYYY-MM-DD), type, amount; optional: description, page. "
+    "type is one of: sale, purchase, expense, udhaar_given, udhaar_recovered."
+)
+# The UI labels ("Stock purchase", "Udhaar given") are what people type into a spreadsheet.
+TYPE_ALIASES = {"stock_purchase": "purchase"}
+
+
+def _entry_type(value: str) -> EntryType:
+    key = "_".join(value.lower().replace("-", " ").split())
+    return EntryType(TYPE_ALIASES.get(key, key))
 
 
 def extract_from_csv(data: bytes) -> ExtractResponse:
-    text = data.decode("utf-8-sig")
+    warnings = []
+    try:
+        text = data.decode("utf-8-sig")
+    except UnicodeDecodeError:  # Excel on Windows saves "CSV" as cp1252 by default
+        text = data.decode("cp1252", errors="replace")
+        warnings.append("The CSV is not UTF-8, so special characters in descriptions may look wrong. "
+                        "Save as \"CSV UTF-8\" to keep them.")
     reader = csv.DictReader(io.StringIO(text))
     cols = {c.strip().lower() for c in (reader.fieldnames or [])}
     if not {"date", "type", "amount"} <= cols:
         raise ValueError(CSV_HELP)
-    entries, warnings = [], []
+    entries = []
     for n, row in enumerate(reader, start=2):
         row = {k.strip().lower(): (v or "").strip() for k, v in row.items() if k}
         try:
             entries.append(LedgerEntry(
                 date=date.fromisoformat(row["date"]),
-                type=EntryType(row["type"].lower()),
+                type=_entry_type(row["type"]),
                 amount=float(row["amount"].replace(",", "")),
                 description=row.get("description", ""),
                 page=int(row["page"]) if row.get("page") else None,

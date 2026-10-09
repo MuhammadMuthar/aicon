@@ -17,5 +17,30 @@ jobs:
           cache-dependency-path: apps/api/requirements*.txt
       - name: Install API dependencies
         run: pip install -r apps/api/requirements-dev.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+      - name: Install web dependencies
+        run: npm ci --prefix apps/web
       - name: Repo + app checks
         run: bash scripts/ci.sh
+      - name: Install Chromium for browser checks
+        working-directory: apps/web
+        run: npx playwright install --with-deps chromium
+      - name: Browser checks against the API
+        env:
+          GEMINI_API_KEY: ""
+        run: |
+          set -euo pipefail
+          (cd apps/api && python -m uvicorn app.main:app --host 127.0.0.1 --port 8000) &
+          api_pid=$!
+          trap 'kill "$api_pid"' EXIT
+          for attempt in {1..30}; do
+            if curl --fail --silent http://localhost:8000/health > /dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail --silent http://localhost:8000/health > /dev/null
+          cd apps/web
+          npm test

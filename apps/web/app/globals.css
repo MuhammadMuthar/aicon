@@ -3618,3 +3618,9 @@ h1 {
     min-height: 38px;
   }
 }
+
+@media (min-width: 601px) {
+  .ledger-art { margin-top: 24px; height: 255px; }
+  .upload-card { display: flex; flex-direction: column; }
+  .upload-card .drop-zone { flex: 1; }
+}

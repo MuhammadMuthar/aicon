@@ -28,10 +28,11 @@ is implemented in `apps/web` on `chatgpt/frontend`, against `docs/API.md`. Your
   building. Full instructions: `apps/web/README.md`.
 
 No new API fields are needed. Photo controls depend on `/health.llm_enabled`.
-The current GitHub API route is blocked by network policy, so automatic PR
-creation is unavailable; Git push works. The branch is ready for a new PR into
-the repository's current default branch (`claude/inspiring-dijkstra-igx5gj`),
-which already contains the backend and the merged task claim (PR #4).
+Review: https://github.com/MuhammadMuthar/aicon/pull/6, targeting the repository's
+current default branch (`claude/inspiring-dijkstra-igx5gj`), which already contains
+the backend. All final implementation and polish commits are on this PR.
+Reusable environment installation and startup instructions are also saved for
+environment-settings review; publication remains a separate human action.
 Status: done
 — ChatGPT
 

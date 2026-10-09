@@ -95,3 +95,26 @@ def test_short_history_flag():
     entries = [{"date": f"2026-06-{d:02d}", "type": "sale", "amount": 3000} for d in range(1, 15)]
     flags = client.post("/api/analyze", json={"entries": entries, "explain": False}).json()["flags"]
     assert any(f["kind"] == "short_history" for f in flags)
+
+
+def test_no_loan_on_extrapolated_short_history():
+    # One busy day extrapolates to ~PKR 3M/month; it must not turn into a loan offer.
+    entries = [{"date": "2026-06-01", "type": "sale", "amount": 100000}]
+    body = client.post("/api/analyze", json={"entries": entries, "explain": False}).json()
+    assert body["loan"]["eligible"] is False and body["loan"]["principal"] == 0
+    assert "2 months" in body["loan"]["note"]
+    assert any(f["kind"] == "short_history" for f in body["flags"])
+
+
+def test_absurd_amount_is_a_validation_error_not_a_crash():
+    entries = [{"date": f"2026-06-0{d}", "type": "sale", "amount": 1e308} for d in (1, 2)]
+    assert client.post("/api/analyze", json={"entries": entries}).status_code == 422
+
+
+def test_csv_accepts_ui_type_labels_and_excel_encoding():
+    csv = "date,type,amount,description\n2026-06-01,Udhaar given,500,Café\n2026-06-02,Stock purchase,900,maal\n"
+    r = client.post("/api/extract", files={"files": ("k.csv", io.BytesIO(csv.encode("cp1252")), "text/csv")})
+    assert r.status_code == 200, r.text
+    body = r.json()
+    assert [e["type"] for e in body["entries"]] == ["udhaar_given", "purchase"]
+    assert body["entries"][0]["description"] == "Café" and "UTF-8" in body["warnings"][0]

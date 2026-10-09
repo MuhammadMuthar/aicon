@@ -20,8 +20,12 @@ def _client():
     return genai.Client(api_key=config.GEMINI_API_KEY)
 
 
-def generate_json(parts: list, schema, system: str, temperature: float = 0.1):
-    """Call Gemini with a schema-constrained JSON response; returns the parsed object."""
+def generate_json(parts: list, schema, system: str, temperature: float = 0.1, timeout_s: float = 60):
+    """Call Gemini with a schema-constrained JSON response; returns the parsed object.
+
+    timeout_s bounds the HTTP call (the SDK default is no timeout), so a hung request
+    turns into LLMUnavailable and the caller's fallback instead of a stalled demo.
+    """
     from google.genai import types
 
     try:
@@ -33,6 +37,7 @@ def generate_json(parts: list, schema, system: str, temperature: float = 0.1):
                 temperature=temperature,
                 response_mime_type="application/json",
                 response_schema=schema,
+                http_options=types.HttpOptions(timeout=int(timeout_s * 1000)),
             ),
         )
     except LLMUnavailable:

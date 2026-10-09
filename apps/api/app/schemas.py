@@ -8,6 +8,9 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
+# One khata line above PKR 1 billion is a misread; it would also overflow the profile maths.
+MAX_AMOUNT = 1_000_000_000
+
 
 class EntryType(str, Enum):
     sale = "sale"                          # cash received for goods/services
@@ -21,7 +24,7 @@ class LedgerEntry(BaseModel):
     date: date
     description: str = ""
     type: EntryType
-    amount: float = Field(gt=0, description="PKR, always positive")
+    amount: float = Field(gt=0, le=MAX_AMOUNT, description="PKR, always positive")
     page: int | None = Field(default=None, description="Source page number (1-based)")
     confidence: float | None = Field(default=None, ge=0, le=1, description="Extraction confidence")
 

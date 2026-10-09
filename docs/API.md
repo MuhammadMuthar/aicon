@@ -17,7 +17,7 @@ interface LedgerEntry {
   date: string;            // YYYY-MM-DD
   description: string;
   type: EntryType;
-  amount: number;          // PKR, > 0
+  amount: number;          // PKR, > 0 and <= 1,000,000,000 (larger is a misread → 422)
   page?: number | null;    // source page, 1-based
   confidence?: number | null; // 0-1, only from photo extraction
 }
@@ -41,7 +41,8 @@ Use `llm_enabled` to show/hide the photo upload (show a "samples only" hint when
 
 ### `POST /api/extract` (multipart/form-data)
 - `files`: 1–6 photos (JPEG/PNG/WebP/HEIC, ≤ 8 MB each) **or** a single `.csv`
-  (`date,type,amount[,description,page]`).
+  (`date,type,amount[,description,page]`; `type` may be the key or the UI label,
+  e.g. `udhaar_given` or `Udhaar given`; UTF-8 preferred, cp1252 accepted with a warning).
 - `year` (optional): year to assume when pages don't show it.
 - → `Ledger & { source: "gemini" | "csv", warnings: string[] }`
 - `503` if photo reading is unavailable (no key / quota) — tell the user to use a sample or CSV.
@@ -91,6 +92,10 @@ interface AnalyzeResponse {
 Urdu text must render right-to-left (`dir="rtl"`, an Urdu-capable font such as Noto Nastaliq Urdu).
 
 Bands: `ready` ≥ 75 · `building` 55–74 · `not_yet` < 55.
+
+Loan policy: `loan.eligible` is `false` when `months_of_history` < 2, whatever the
+score (monthly averages from a few days are extrapolated; the model was trained on
+2–12 months). A `short_history` warning flag says the same; `loan.note` explains why.
 
 ## Example (`nadia`, trimmed)
 

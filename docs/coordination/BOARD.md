@@ -20,8 +20,7 @@ Deadlines: build Sat 10 Oct · **submit Sat 10 Oct 11:59 PM** · present Sun 11 
 - [ ] T-20 Rehearse the 5-minute demo on the team laptop, offline fallback via samples — owner: @human
 
 ## In progress
-
-_(nothing)_
+- [ ] T-21 Senior review of merged `main` + fixes (loan on <2 months of records, 500 on huge amounts, Gemini timeouts, CSV import, frontend review highlighting + API cold start) — owner: Claude — branch: `claude/review-fixes`
 
 ## Review
 
